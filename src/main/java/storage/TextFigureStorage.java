@@ -2,7 +2,6 @@ package storage;
 
 import geometry2d.*;
 import exceptions.InvalidLineException;
-import exceptions.GeometryException;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

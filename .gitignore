@@ -36,3 +36,4 @@ bin/
 *.jar
 dist/
 data/
+target/

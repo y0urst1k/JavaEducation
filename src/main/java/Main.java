@@ -1,5 +1,3 @@
-package app;
-
 import geometry2d.Figure;
 import geometry3d.Cylinder;
 import storage.FigureStorage;
