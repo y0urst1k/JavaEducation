@@ -1,12 +1,14 @@
-# Лабораторная работа 3
+# Лабораторная работа 5
 - ФИО: Юркин Дмитрий Алексеевич
 - Группа: ФИТ-251
 
-# Описание логики
-Формат строк:
-CIRCLE <radius>
-RECTANGLE <width> <height>
+# Сборка и запуск
+- ./mvnw clean package (или ./mvnw.cmd clean package в Windows).
+- java -jar target/lab5.jar.
 
-Разделитель полей — пробел.
-Пустые строки и строки, начинающиеся с #, игнорируются.
-При ошибке в строке она пропускается, выводится предупреждение в stderr, чтение продолжается.
+# Проверка тестов
+
+Для проверки работы тестов была намеренно внесена ошибка в метод Rectangle.area(): return width * height * 2;
+
+При запуске mvn test тесты areaOfThreeByFourRectangleIsTwelve, areaAndPerimeterOfSquare и другие упали с сообщением expected: X but was: Y.
+Ошибка была исправлена, все тесты проходят, сборка mvn package завершается успешно.
