@@ -17,11 +17,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>2.2.224</version>
-        </dependency>
-        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
@@ -35,7 +30,7 @@
     </dependencies>
 
     <build>
-        <finalName>lab8</finalName>
+        <finalName>lab10</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
